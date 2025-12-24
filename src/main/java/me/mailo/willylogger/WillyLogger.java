@@ -3,11 +3,11 @@ package me.mailo.willylogger;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class Logger {
+public class WillyLogger {
     public String name;
     public boolean enableDebug = false;
 
-    public Logger(String name) {
+    public WillyLogger(String name) {
         this.name = name;
     }
 
